@@ -1,3 +1,3 @@
 <template>
-  <h2>About Page</h2>
+  <h2>Child Page</h2>
 </template>
