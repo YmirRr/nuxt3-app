@@ -1,6 +1,8 @@
 <template>
   <div>
-		默认布局, default.vue:
-		<slot />
-	</div>
+    <TheHeader></TheHeader>
+    默认布局, default.vue:
+    <slot />
+    <TheFooter></TheFooter>
+  </div>
 </template>
