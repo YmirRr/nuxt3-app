@@ -7,6 +7,8 @@
     <input type="checkbox" v-model="todo.completed">
     <strong>{{ todo.title }}</strong>
   </div>
+  <!-- 插件引入 -->
+  <d-button>devui按钮</d-button>
 </template>
 <script setup>
   // useAsyncData 方式
@@ -16,5 +18,8 @@
 
   // useFetch 方式
   const { data: todos } = await useFetch('/api/todo')
+
+  const { $hello } = useNuxtApp()
+  console.log($hello())
 </script>
 

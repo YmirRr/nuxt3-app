@@ -10,5 +10,8 @@
   "devDependencies": {
     "nuxt": "^3.3.1"
   },
-  "__npminstall_done": false
+  "__npminstall_done": false,
+  "dependencies": {
+    "vue-devui": "^1.5.2"
+  }
 }
